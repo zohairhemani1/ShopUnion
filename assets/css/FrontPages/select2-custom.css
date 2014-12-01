@@ -1,0 +1,53 @@
+﻿#businessForm .select2-container{
+    width: 60.5%;
+}
+#businessForm .select2-container .select2-choice {
+    height: 37px;
+}
+
+#businessForm .select2-container .select2-choice .select2-arrow {
+    width: 37px;
+    height: 37px;
+}
+
+#businessForm .select2-container .select2-choice abbr {
+    right: 43px;
+    top: 13px;
+}
+
+#businessForm .select2-container .select2-choice .select2-arrow b{
+    background: url(../../images/FrontPages/select-arrow.png) no-repeat right 0;
+}
+
+#businessForm .select2-container .select2-choice > .select2-chosen {
+    margin-left: 10px;
+    margin-right: 37px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: MyriadProRegular;
+    font-size: 14px;
+}
+
+.select2-results li div.select2-result-label {
+    font-family: MyriadProRegular;
+    font-size: 14px;
+    height: 22px;
+    padding-top: 12px;
+}
+
+
+div.select2-drop {
+    background: #dfcffb;
+    font-family: MyriadProRegular;
+    font-size: 15px;
+}
+
+.select2-results .select2-result.select2-highlighted {
+    background: #ccc!important;
+    color: #000!important;
+}
+
+.select2-results .select2-result.select2-selected-item {
+    background: #650101;
+    color: #fff;
+}

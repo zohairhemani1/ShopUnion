@@ -1,0 +1,159 @@
+#header{box-shadow: 0 5px 5px -5px #333;}
+
+.newsletterBox,.progressBar{-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px; position: relative; behavior: url("includes/PIE.html")}
+.newsletterBox input[type="submit"]{-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px; 
+                                    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#42484c', endColorstr = '#56595b');
+                                    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#42484c', endColorstr = '#56595b')";
+                                    background-image: -moz-linear-gradient(top, #42484c, #56595b);
+                                    background-image: -ms-linear-gradient(top, #42484c, #56595b);
+                                    background-image: -o-linear-gradient(top, #42484c, #56595b);
+                                    background-image: -webkit-gradient(linear, center top, center bottom, from(#42484c), to(#56595b));
+                                    background-image: -webkit-linear-gradient(top, #42484c, #56595b);
+                                    background-image: linear-gradient(top, #42484c, #56595b);
+                                    -moz-background-clip: padding;
+                                    -webkit-background-clip: padding-box;
+                                    background-clip: padding-box;
+                                    -webkit-box-shadow: #353739 1px 1px 0px;
+                                    -moz-box-shadow: #353739 1px 1px 0px;
+                                    box-shadow: #353739 1px 1px 0px;
+                                    position: relative;behavior: url("includes/PIE.html");}
+.grayBtn{-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px; position: relative; behavior: url("includes/PIE.html");
+         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#d8dbdd', endColorstr = '#eaebeb');
+         -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#d8dbdd', endColorstr = '#eaebeb')";
+         background-image: -moz-linear-gradient(top, #d8dbdd, #eaebeb);
+         background-image: -ms-linear-gradient(top, #d8dbdd, #eaebeb);
+         background-image: -o-linear-gradient(top, #d8dbdd, #eaebeb);
+         background-image: -webkit-gradient(linear, center top, center bottom, from(#d8dbdd), to(#eaebeb));
+         background-image: -webkit-linear-gradient(top, #d8dbdd, #eaebeb);
+         background-image: linear-gradient(top, #d8dbdd, #eaebeb);
+         -moz-background-clip: padding;
+         -webkit-background-clip: padding-box;
+         background-clip: padding-box;
+         -webkit-box-shadow: #929598 1px 1px 0px;
+         -moz-box-shadow: #929598 1px 1px 0px;
+         box-shadow: #929598 1px 1px 0px;
+         }
+.appcont{filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#cccccc');
+         -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#cccccc')";
+         background-image: -moz-linear-gradient(top, #ffffff, #cccccc);
+         background-image: -ms-linear-gradient(top, #ffffff, #cccccc);
+         background-image: -o-linear-gradient(top, #ffffff, #cccccc);
+         background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#cccccc));
+         background-image: -webkit-linear-gradient(top, #ffffff, #cccccc);
+         background-image: linear-gradient(top, #ffffff, #cccccc);
+         -moz-background-clip: padding;
+         -webkit-background-clip: padding-box;
+         background-clip: padding-box;
+         position: relative;behavior: url("includes/PIE.html");}
+.toolTip{-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;
+         -moz-box-shadow: 5px 5px 0px rgba(0,0,0,0.1);
+         -webkit-box-shadow:5px 5px 0px rgba(0,0,0,0.1);
+         box-shadow: 5px 5px 0px rgba(0,0,0,0.1);
+         background: #fff; position: relative; behavior: url("includes/PIE.html")}
+.qouteRow .toolTip{-border: 0 none;
+                   -moz-box-shadow: 2px 5px 0px rgba(201,17,34,0.5);
+                   -webkit-box-shadow:2px 5px 0px rgba(201,17,34,0.5);
+                   box-shadow: 2px 5px 0px rgba(201,17,34,0.5);}
+.qouteRow.swap .toolTip{
+    -moz-box-shadow: -2px 5px 0px rgba(36,51,71,0.5);
+    -webkit-box-shadow:-2px 5px 0px rgba(36,51,71,0.5);
+    box-shadow: -2px 5px 0px rgba(36,51,71,0.5);}
+.titleBox{-webkit-border-radius: 4px 4px 0 0;-moz-border-radius: 4px 4px 0 0;border-radius: 4px 4px 0 0;position: relative; behavior: url("includes/PIE.html")}
+.packageList,.packageList li.last{-webkit-border-radius:0 0 4px 4px;-moz-border-radius: 0 0 4px 4px;border-radius: 0 0 4px 4px;position: relative; behavior: url("includes/PIE.html")}
+.caseStudy{-moz-box-shadow:    inset 0  8px 30px -8px #d9d4d3, inset 0 -8px 30px -8px #d9d4d3;-webkit-box-shadow: inset 0  8px 30px -8px #d9d4d3, 
+               inset 0 -8px 30px -8px #d9d4d3; box-shadow:inset 0  8px 30px -8px #d9d4d3, inset 0 -8px 30px -8px #d9d4d3;}
+.commentBox figure,.commentBox figure img{-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%; position: relative; behavior: url("includes/PIE.html")}
+.commentText{-moz-box-shadow: 0 19px 19px -19px  rgba(0, 0, 0, 0.5);-webkit-box-shadow: 0 19px 19px -19px   rgba(0, 0, 0, 0.5);  box-shadow: 0 19px 19px -19px   rgba(0, 0, 0, 0.5);position: relative; behavior: url("includes/PIE.html")}
+
+.commentBox figure figcaption{background:rgba(0,0,0,0.5); opacity: .75; 
+                              -ms-filter: “alpha(opacity=75)”;
+                              filter: alpha(opacity=75); 
+                              -khtml-opacity: .75; 
+                              -moz-opacity: .75; 
+}
+.btn2{ -webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;
+       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7aadd9', endColorstr = '#436cbb');
+       -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7aadd9', endColorstr = '#436cbb')";
+       background-image: -moz-linear-gradient(top, #7aadd9, #436cbb);
+       background-image: -ms-linear-gradient(top, #7aadd9, #436cbb);
+       background-image: -o-linear-gradient(top, #7aadd9, #436cbb);
+       background-image: -webkit-gradient(linear, center top, center bottom, from(#7aadd9), to(#436cbb));
+       background-image: -webkit-linear-gradient(top, #7aadd9, #436cbb);
+       background-image: linear-gradient(top, #7aadd9, #436cbb);
+       -moz-background-clip: padding;
+       -webkit-background-clip: padding-box;
+       background-clip: padding-box;
+       position: relative;behavior: url("includes/PIE.html");}
+.btn2.lightBlue{
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#b9d3f4', endColorstr = '#82afeb');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#b9d3f4', endColorstr = '#82afeb')";
+    background-image: -moz-linear-gradient(top, #b9d3f4, #82afeb);
+    background-image: -ms-linear-gradient(top, #b9d3f4, #82afeb);
+    background-image: -o-linear-gradient(top, #b9d3f4, #82afeb);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#b9d3f4), to(#82afeb));
+    background-image: -webkit-linear-gradient(top, #b9d3f4, #82afeb);
+    background-image: linear-gradient(top, #b9d3f4, #82afeb);
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.btn2.red{border-color: #9d1724;
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#fe395e', endColorstr = '#d90202');
+          -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#fe395e', endColorstr = '#d90202')";
+          background-image: -moz-linear-gradient(top, #fe395e, #d90202);
+          background-image: -ms-linear-gradient(top, #fe395e, #d90202);
+          background-image: -o-linear-gradient(top, #fe395e, #d90202);
+          background-image: -webkit-gradient(linear, center top, center bottom, from(#fe395e), to(#d90202));
+          background-image: -webkit-linear-gradient(top, #fe395e, #d90202);
+          background-image: linear-gradient(top, #fe395e, #d90202);
+          -moz-background-clip: padding;
+          -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+}
+.btn2.lightRed{border-color: #e97d88;
+               filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f1a5ad', endColorstr = '#e45c69');
+               -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f1a5ad', endColorstr = '#e45c69')";
+               background-image: -moz-linear-gradient(top, #f1a5ad, #e45c69);
+               background-image: -ms-linear-gradient(top, #f1a5ad, #e45c69);
+               background-image: -o-linear-gradient(top, #f1a5ad, #e45c69);
+               background-image: -webkit-gradient(linear, center top, center bottom, from(#f1a5ad), to(#e45c69));
+               background-image: -webkit-linear-gradient(top, #f1a5ad, #e45c69);
+               background-image: linear-gradient(top, #f1a5ad, #e45c69);
+               -moz-background-clip: padding;
+               -webkit-background-clip: padding-box;
+               background-clip: padding-box;
+}
+
+.packageBox{-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;position: relative;behavior: url("includes/PIE.html");}
+.titleBar{-webkit-border-radius: 6px 6px 0 0;-moz-border-radius: 6px 6px 0 0;border-radius: 6px 6px 0 0;position: relative; behavior: url("includes/PIE.html")}
+
+.followers span{border-color: #f3293a;
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#eb1e31', endColorstr = '#e45c69');
+                -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#eb1e31', endColorstr = '#e45c69')";
+                background-image: -moz-linear-gradient(top, #eb1e31, #89111c);
+                background-image: -ms-linear-gradient(top, #eb1e31, #89111c);
+                background-image: -o-linear-gradient(top, #eb1e31, #89111c);
+                background-image: -webkit-gradient(linear, center top, center bottom, from(#eb1e31), to(#89111c));
+                background-image: -webkit-linear-gradient(top, #eb1e31, #89111c);
+                background-image: linear-gradient(top, #eb1e31, #89111c);
+                -moz-background-clip: padding;
+                -webkit-background-clip: padding-box;
+                background-clip: padding-box;
+                -webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;position: relative;behavior: url("includes/PIE.html");
+}
+#shareFooter{-moz-box-shadow:  inset 0  8px 12px -8px #030303, inset 0 -8px 12px -8px #030303;-webkit-box-shadow: inset 0  8px 12px -8px #030303, 
+                 inset 0 -8px 12px -8px #030303; box-shadow:inset 0  8px 12px -8px #030303, inset 0 -8px 12px -8px #030303;}
+
+/*.userImg{-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;behavior: url("includes/PIE.htc")}*/
+.userImg,.userImg img{-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%; position: relative; behavior: url("includes/PIE.html")}
+
+.loginBox{-webkit-border-radius: 9px;-moz-border-radius: 9px;border-radius: 9px; position: relative; behavior: url("includes/PIE.html")}
+.loginBox input,.signUpBtn{-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; position: relative; behavior: url("includes/PIE.html")}
+.loginBox input[type="text"],.loginBox input[type="password"]{-webkit-box-shadow:inset 0 5px 5px -6px #e3e5e8;-moz-box-shadow: inset 0 5px 5px -6px #e3e5e8;box-shadow:inset 0 5px 5px -6px #e3e5e8;}
+
+.stylish-select .leftBox .newListSelected,.stylish-select .rightBox .newListSelected,.formBox ul li input,.formBox ul li textarea{-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; position: relative; behavior: url("includes/PIE.html")}
+.redBtn,.grayBtnTwo{-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; position: relative; behavior: url("includes/PIE.html")}
+.form{-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;-webkit-box-shadow:  0px 1px 0px 0px #b0b3b5;box-shadow:  0px 1px 0px 0px #b0b3b5; position: relative; behavior: url("includes/PIE.html")}
+.wrapBox{-webkit-border-radius: 6px;-moz-border-radius: 0 0 4px 4px;border-radius: 0 0 4px 4px;position: relative; behavior: url("includes/PIE.html")}
+.progress{-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; behavior: url("includes/PIE.html")}
+.commentBox figure figcaption{-webkit-border-radius:0 0 100% 100%;-moz-border-radius: 0 0 100% 100%;border-radius: 0 0 100% 100%; position: relative; behavior: url("includes/PIE.html")}

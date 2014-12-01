@@ -1,0 +1,139 @@
+/**
+* Stylish Select 0.4.9 - $ plugin to replace a select drop down box with a stylable unordered list
+* http://github.com/scottdarby/Stylish-Select/
+* 
+* Copyright (c) 2009 Scott Darby
+* 
+* Requires: jQuery 1.3 or newer
+* 
+* Dual licensed under the MIT and GPL licenses.
+*/
+
+/**
+* Hide lists on page load
+---------------------------------------------------------*/
+
+.stylish-select .SSContainerDivWrapper {
+    left:-9999px;
+}
+
+/*
+* Red example
+---------------------------------------------------------*/
+.stylish-select .SSContainerDivWrapper {
+    margin:0;
+    padding:0;
+    width:290px;
+    position:absolute;
+    top:22px;
+    left:0;
+    z-index:2;
+}
+
+.stylish-select ul.newList {
+    margin:0;
+    width: 100%;
+    float: left;
+    padding:5px 0;
+    list-style:none;
+    color:#000;
+    background:#fff!important;
+    overflow:auto;
+    z-index: 9999;
+}
+
+.stylish-select ul.newList * {
+    margin:0;
+    padding:0;
+}
+
+
+.stylish-select ul.newList a {
+    color: #000;
+    text-decoration:none;
+    display:block;
+    padding:3px 8px;
+}
+
+.stylish-select .newListSelected {
+    width:285px;
+    color:#000;
+    height:19px;
+    padding:3px 0 0 6px;
+    float:left;
+    background:url(../images/select-bg.html) no-repeat;
+}
+
+.stylish-select ul.newList li a:focus {
+    -moz-outline-style: none;
+}
+
+.stylish-select .selectedTxt {
+    width:258px;
+    overflow:hidden;
+    height:16px;
+    padding:0 23px 0 0;
+}
+
+.stylish-select .hiLite {
+    background:#650101!important;
+    color:#fff!important;
+}
+
+.stylish-select .newListHover {
+    background:#ccc!important;
+    color:#000!important;
+    cursor:default;
+}
+
+.stylish-select .newListDisabled {
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+}
+
+.stylish-select .newListItemDisabled {
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+}
+
+.stylish-select .newListOptionDisabled {
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+}
+
+.stylish-select .newListSelHover,
+.stylish-select .newListSelFocus {
+    background-position:0 -22px;
+    cursor:default;
+}
+
+.stylish-select .newListOptionTitle {
+    font-weight:bold;
+}
+
+.stylish-select .newListOptionTitle ul {
+    margin:3px 0 0;
+}
+
+.stylish-select .newListOptionTitle li {
+    font-weight:normal;
+}
+
+/****************************************************************************************/
+.stylish-select .leftBox .newListSelected{ width: 60.2%; height: 37px; padding: 0; float: left; background:#f7f7f7 url(../../images/FrontPages/gradient09.jpg) repeat-x 0 0; border: 1px solid #C7C7C7;cursor: pointer;}
+.stylish-select .leftBox .selectedTxt{width: 83%;height: 100%;padding: 0 11.5% 0 5.5%;float: left;font: 14px/39px 'MyriadProRegular';color: #505050; background: url(../../images/FrontPages/select-arrow.png) no-repeat right 0;  cursor: pointer;}
+.stylish-select .leftBox .SSContainerDivWrapper{width: 99.5%; border: 1px solid #C7C7C7; z-index: 9999;}
+.stylish-select .leftBox .newListSelHover {background-position: right 97%;float: left;background:#fff url(../../images/FrontPages/gradient06.jpg) repeat-x left bottom;}
+.stylish-select .leftBox ul.newList{padding: 0;background: #dfcffb!important; height: 220px; overflow: auto; margin-bottom: 20px;}
+.stylish-select .leftBox ul.newList a{font: 14px/33px 'MyriadProRegular';color: #505050;}
+
+/****************************************************************************************/
+.stylish-select .rightBox .newListSelected{ width: 28%; height: 37px; padding: 0; float: left; background:#f7f7f7 url(../../images/FrontPages/gradient09.jpg) repeat-x 0 0; border: 1px solid #C7C7C7;cursor: pointer;}
+.stylish-select .rightBox .selectedTxt{width: 62%;height: 100%;padding: 0 26% 0 12%;float: left;font: 14px/39px 'MyriadProRegular';color: #505050; background: url(../../images/FrontPages/select-arrow.png) no-repeat right 0;  cursor: pointer;}
+.stylish-select .rightBox .SSContainerDivWrapper{float: left;width: 100%;border: 1px solid #C7C7C7;background: #faf8f8!important;z-index: 9999;}
+.stylish-select .rightBox .newListSelHover {background-position: right 97%;float: left;background:#fff url(../../images/FrontPages/gradient06.jpg) repeat-x left bottom;}
+.stylish-select .rightBox ul.newList{padding: 0;background: #dfcffb!important;height: 300px !important; overflow: auto; margin-bottom: 20px;}
+.stylish-select .rightBox ul.newList a{font: 14px/33px 'MyriadProRegular';color: #505050;}

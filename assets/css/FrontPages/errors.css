@@ -1,0 +1,28 @@
+﻿.field-validation-error {
+    display: inline-block;
+    color: #f00;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.validation-summary-errors ul li {
+    color: #f00;
+    font-size: 14px;
+}
+
+#businessForm .field-validation-error {
+    margin-left: 15%;
+}
+
+#stripeTokenForm label.error {
+    font-size: 14px;
+    line-height: 16px;
+    color: #f00;    
+}
+
+@media (max-width: 479px) 
+{
+    #businessForm .field-validation-error {
+        margin-left: 0;
+    }
+}

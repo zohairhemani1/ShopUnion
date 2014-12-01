@@ -1,0 +1,619 @@
+/*============================= 
+! Layout for ipad landscape 
+============================= */
+@media only screen and (max-width: 1024px) {
+    /*Index page start here*/
+    .wrapper{padding: 0 2%; width: 96%; float: left;}
+    /*banner starts here*/
+    .bannerTextBox{margin: 20px 0 0 5%;}
+    .menu li a{font-size: 13px;}
+    .login li{padding: 0 6%;}
+    .containerInner{padding: 40px 0 0;}
+    .containerInner header span{font-size: 26px; line-height: 28px; padding-top: 15px; text-align: justify;}
+    .row{margin-top: 60px;}
+    .row .image{width: 49%;}
+    .row .contentText{width: 49%;padding-top: 50px;}
+    .list li{width: 32%;}
+    .list li:nth-of-type(4n+1){margin-left:1.3%;}
+    /*Business page starts here*/
+    .signUp{margin-top: 20px;padding: 15px 2.5%;}
+    .signUp p{font-size: 25px; line-height: 30px;}
+    .aboutText p{font-size: 20px;line-height: 24px;}
+    .usepushList{width: 100%; padding: 0;}
+    .usepushList li img{max-width: 90%;}
+    .usepushList li span{padding-left: 8px; font-size: 13px;}
+    .product .row .contentText{width: 49%;}
+    .product .row .contentText span{padding-bottom: 16px;}
+    .product .row .contentText p{padding-bottom: 15px;}
+    .contentText ul li{line-height: 20px;}
+    .caseStudy{padding-top: 25px;}
+    .caseStudy h3{padding-bottom: 25px;}
+    .doubleDave figure{width: 30%;}
+    .doubleDaveText p{font-size: 18px; line-height: 27px;}
+    .caseStudy p{font-size: 22px;}
+    .btnBlock ul{background-size: 100% 100%;}
+    /*App page starts here*/
+    .handPhone{width: 35%;}
+    .appInfo.rightList{margin: 0 0 0 2%;}
+    .appBannerText{width: 47%; margin-top: 70px; margin-left: 2.5%;}
+    .appBannerText h5{font-size: 37px;}
+    .testimonialBox{padding: 50px 0 42px;}
+    .testimonialBox p{font-size: 34px;line-height: 36px; padding-top: 5px; padding-top: 8px;}
+    .appInfo li strong{font-size: 18px;line-height: 18px;}
+    .appInfo{width: 23%; margin-right: 3%;}
+    .appInfo.rightList{width: 23%; margin: 0 0 0 3%;}
+    .appInfo li p{font-size: 14px; line-height: 16px;}
+    .phoneApp{padding-top: 64px;}
+    .phone img{margin-top: -115px;}
+    .arrow1{right: auto; left: 96%;width: 98%;}
+    .arrow2{right: auto; left: 85%;top: 88px; width: 130%;}
+    .arrow4{top: 28px; width: 55%;}
+    .signUpFree span{display: block; font-size: 35px;}
+    .signUpFree .btn{display: inline-block; margin-top: 25px;}
+    /*Community page starts here*/
+    .community #banner ul li .wrapper{min-height: 302px;}
+    .communityBannerText p{font-size: 30px;}
+    .community .usepushList{width: 100%; padding: 0;}
+    .community .usepushList li{width: 25% !important;}
+    .community .usepushList li span{font-size: 13px; line-height: 60px; padding-top: 0 !important; padding-left: 5px !important;width: auto !important;;}
+    .freeLeftBox span{font-size: 55px;}
+    .freeLeftBox p{font-size: 30px;}
+    .freeLeftBox .btn{width: 80%; margin: 30px 10%; background-size: 100% 100%;}
+    .qouteRow .toolTip{width: 48%;}
+    .qouteRow.swap .toolTip{margin-left: 2%;}
+    /*our story page starts here*/
+    .storyBannerTitle{ background-size: 100% 100%; font-size: 40px;line-height: 40px;}
+    .storyContent{margin-top: 20px;}
+    .commentBox{width: 60%;}
+    .commentBox figure{width: 90px; height: 90px;margin: 8px 8px 0 0;}
+    .commentText{width: 77%;padding: 10px 5px 0; min-height: 1px;}
+    .commentText p.userName{padding-top: 0;}
+    .commentText p{font-size: 12px;line-height: 20px;}
+    .commentText p strong{font-size: 16px;}
+    .commentText .circleShadow {width: 76px; height: 125px; background-size: 100% 100%; left: -76px;}
+    .leftAlign{margin-top: 10px; width: 65%;}
+    .commentBox.leftAlign figure{width: 90px; height: 90px; margin: 8px 0 0 10px;}
+    .leftAlign .commentText{width: 70%; margin-left: 10px;padding: 10px 5px 2px 10px; min-height: 1px;}
+    .leftAlign .commentText strong{display: inline-block;}
+    .leftAlign .commentText .circleShadow {width: 76px; left: auto;right: -75px;}
+    .leftAlign .arrow{right: 20px;}
+    .storyBanner ul li{min-height: 512px;}
+
+    .aboutText2 p{font-size: 30px;line-height: 40px;}
+    .threeCols{background-size: 100% 100%;}
+    .threeCols article{width: 30%; margin: 0 1.5% !important;}
+    .appText{margin-top: 53px;}
+    .appText h6{font-size: 21px; line-height: 26px;}
+    .download h3{font-size: 31px;}
+    /*pricing page starts here*/
+    .packageListTwo li span{ margin-left: 5%; padding-left: 10%; width: 80%;}
+    /*privacy page starts here*/
+    .pageInner{padding: 48px 0 132px;}
+    /*testimonial page starts here*/
+    .footeLogoSec{margin-right: 3.6%;}
+    /*step2 page starts here*/
+    .formOuter .wrapper{padding: 0 2%; width: 96%;float: left;}
+    .formBtnWrap {padding: 0 5% 0 9%;width: 86%;}
+}
+
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+    /*Index page starts here*/
+    .bannerTextBox{margin-left: 0; width: 45%; margin: 8% 0 0; padding-bottom: 14px;}
+    .bannerTextBox div.banner-title{font-size: 27px; line-height: 26px;}
+    .bannerTextBox div.banner-subtitle{font-size: 19px; line-height: 24px;}
+    .bannerTextBox div.middle-line-btns .signup-link-btn img { width: 50%;}
+    .bannerTextBox div.middle-line-btns #videoLink img { width: 10%;}
+    .bannerTextBox div.middle-line-btns #videoLink {font-size: 140%}
+    .menu,.login{padding: 5px 0;}
+    .menu li{padding: 0 1%;}
+    .menu li a{font-size: 12px;}
+    .login li{padding: 0 3%;line-height: 11px;}
+    .login li a{font-size: 12px;}
+    #threeIcon ul li{width: 30% !important;padding: 25px 1.5%;}
+    #threeIcon ul li small{line-height: 15px; padding-top: 5px;}
+    .containerInner header span{font-size: 20px;line-height: 22px; padding-top: 10px;}
+    .row{margin-top: 30px; background-size: 150% auto;}
+    .row .contentText{padding-top: 25px;}
+    .socialMedia{padding-bottom: 2px;}
+    #whyChoose{margin-top: 0;}
+    .list li{width: 48%;}
+    #grayBlock ul li{width: 100%; margin: 0;}
+    .footeLogoSec{width: 22%; margin-right: 0;}
+    .social li{margin-right: 5px;}
+    .box{width: 24%; margin-left: 2%;}
+    .box p,.newsletter p{font-size: 11px;}
+    .newsletterBox input[type="text"]{width: 60%;}
+    .newsletterBox input[type="submit"]{width: 34%;}
+    /*Business page starts here*/
+    .busiBanner ul li{min-height: 226px;}
+    .aboutText p{font-size: 17px;line-height: 20px;}
+    .signUp p{font-size: 20px;line-height: 22px; text-align: center;}
+    .signUp .btn{width: 80%; margin: 15px 10%; background-size: 100% 100%; font-size: 20px;line-height: 25px;}
+    .usePushlocal h1{font-size: 35px;line-height: 40px; padding: 20px 0;}
+    .usepushList li{width: auto !important; display: inline-block; margin: 0 2.5%; text-align: center;}
+    .usepushList li figure{float: none; display: inline-block;}
+    .usepushList li figure img{max-width: 100%;}
+    .usepushList li span{float: none; line-height: 22px; display: list-item; padding: 0;}
+    .priceBlock{overflow: hidden; padding-top: 30px;}
+    .product .row{position: relative;}
+    .product .row .image{position: absolute; left: 0; bottom: 2px;}
+    .product .row.swapContent .image{left: auto; right: 0;}
+    .caseStudy h3{padding-bottom: 15px;}
+    .caseStudy span{font-size: 18px; line-height: 22px;}
+    .caseStudy small{font-size: 15px;line-height: 20px;}
+    .caseStudy p{font-size: 14px; line-height: 19px;}
+    .caseStudy strong{font-size: 25px;line-height: 30px;}
+    .doubleDaveText{padding: 8px 2.3% 9px 8px;}
+    .packageWrap{margin-top: 30px;}
+    .priceBlock h3{font-size: 45px; line-height: 50px;}
+    .valueBox sup{font-size: 30px;}
+    .valueBox strong{font-size: 55px;}
+    .valueBox span{font-size: 20px;line-height: 25px; padding-top: 22px;}
+    .packageList li span{width: 78%; margin-left:5%;padding-left: 12%; line-height: 25px;}
+    .bestValue{width: 40%; top: 7px;}
+    .premium .valueBox{min-height: 69px;}
+    .btnBlock{margin-top: 30px; min-height: 100px;}
+    .btnBlock ul{min-height: 0;}
+    .btnBlock ul li a{min-height: 55px;}
+    .tweetSlide figure{width: 12%;}
+    /*App page starts here*/
+    .appBannerText{margin-top: 50px;}
+    .appBannerText h5{font-size: 31px;line-height: 31px;}
+    .appBannerText p{font-size: 17px;line-height: 20px;}
+    .appBannerText .appLink a{width: 46%; margin: 0 2%;}
+    .testimonialBox em{margin-right: 4%; background-size: 100% auto;}
+    .testimonialBox p{font-size: 28px;line-height: 30px;}
+    .appInfo li strong{font-size: 12px;line-height: 14px; font-weight: 700;}
+    .appInfo li p{font-size: 14px;line-height: 14px;}
+    .phoneApp{padding-top: 20px;}
+    .appInfo li{padding-bottom: 30px;}
+    .phone img{margin-top: -71px;}
+    .arrow2{width: 122%; left: 92%;top: 66px;}
+    .arrow4{top: 8px; width: 65%;}
+    /*Community page starts here*/
+    .community .usepushList li figure{display: list-item;}
+    .community .usepushList li{width: 31% !important; margin: 0 1%;}
+    .community .usepushList li span{line-height: 20px;}
+    .communityBannerText {padding-bottom: 51px;}
+    .communityBannerText p{font-size: 24px;}
+    .communityBannerText .btn{font-size: 22px;}
+    .subTitle{font-size: 19px;}
+    .community .row{position: relative; margin-top: 70px;}
+    .community .row .image{position: absolute; left: 0; bottom: 2px;}
+    .community .row.swapContent .image{left: auto; right: 0;}
+    .freeLeftBox{margin-top: 40px;}
+    .freeLeftBox span{font-size: 40px; line-height: 40px;}
+    .freeLeftBox p{font-size: 25px;}
+    .freeLeftBox .btn{margin: 18px 10%; font-size: 25px; line-height: 50px; height: 50px;}
+    .community .row .contentText span{font-size: 22px;line-height: 28px; padding-bottom: 15px;}
+    /*pricing page starts here*/
+    .priceBlockTwo h6{font-size: 28px;}
+    .packageWrapTwo .packageBox:first-child{margin-left: 1%;}
+    .packageBox{width: 31.3%; margin: 0 1%;}
+    .packageListTwo li span{ margin-left: 5%; padding-left: 10%; width: 80%; font-size: 12px;}
+    .btnbox{width: 70%; margin: 3px 15%;}
+    .ribbon{width: 50px; height: 50px; background-size: cover; right: -2px; top: -2px;}
+    .downloadInner{padding-top: 20px;}
+    .download p.paddOne{font-size: 18px; line-height: 25px;}
+    .joinUs{min-height: 359px;}
+    .joinUs .title{margin: 20px 0 11px; font-size: 55px;line-height: 55px;}
+    .joinUs h3{font-size: 24px; line-height: 24px;}
+    /*privacy page starts here*/
+    .btnGroup a{width: 28%; margin: 0 1%; display: inline-block;}
+    /*testimonial page starts here*/
+    .testiBanner h1{font-size: 45px;line-height: 45px; margin-top: 40px;}
+    .testiBanner p{font-size: 25px;line-height: 25px; padding: 9px 10%;}
+    .userImg{width: 180px; height: 180px; overflow: hidden;}
+    .qouteRow .toolTip{width: 58%;margin: 0 0 0 79px;}
+    /*our story page starts here*/
+    .storyBannerTitle{ height: 65px; font-size: 30px; line-height: 60px; padding: 0; margin-top: 10px;}
+    .commentBox{width: 80%;}
+    .leftAlign{width: 90%;}
+    .aboutText2 p{font-size: 24px; line-height: 24px;}
+    .aboutText2 p small{font-size: 13px; line-height: 15px; word-spacing: 3px; padding-top: 28px; display: block;}
+    .articleTop h3{font-size: 24px; line-height: 24px;}
+    .succeedContent h2{font-size: 35px; line-height: 35px;}
+    .succeedContent h4{font-size: 22px;line-height: 22px;}
+    .commentBox figure figcaption{padding: 5px 0;}
+    .commentBox figure figcaption small{font-size: 11px;line-height: 11px;}
+    .commentBox figure figcaption span{font-size: 9px;line-height: 11px;}
+    /*step2 page starts here*/
+    .form{border-top-color: #B2B4B7;}
+    .steps li.first{width: 25%; margin-right: 17%;}
+    .steps li.secound{width: 24%; margin-right: 18.5%; text-align: center}
+    .steps li.third{width: 15%;}
+    .progress{width: 49%;}
+    .formBox{width: 48%; margin: 0 1%;}
+    .formBox ul li label{padding-left: 10px; font-size: 12px;}
+    .formBox ul li input[type="text"], .formBox ul li input[type="password"], .formBox ul li textarea{width: 52%;}
+    #businessForm .formWrap .select2-container{width: 59.5%;}
+    .redBtn,.grayBtnTwo{font-size: 14px;}
+    .redBtn{width: 70%; line-height: 39px;}
+	.stepOne .redBtn {
+		width: 315px;
+	}
+    .formBtnWrap{padding: 0; width: 100%;}
+	.stepTwo .formBtnWrap{
+		width: 	97%;
+		float: right;
+		margin-top: 47px;
+	}
+    /*step3 page starts here*/
+    .form .packageBox{width: 30% !important; margin: 0 1.6% !important;}
+    .form .packageListTwo li span{margin-left: 6%;}
+    /*step4 page starts here*/
+    .rightBox ul li em{margin: 0 3px;}
+    /*select page starts here*/
+    .selectedPlan{width: 40%; margin: 0 30%;}
+    .selectedPlan .packageBox {width: 100% !important;}
+    /*thank page starts here*/
+    .thanks h2{font-size: 17px;}
+}
+/*============================= 
+! Layout for mobile landscape  
+============================= */
+@media only screen and (max-width: 767px) {
+    /*Index page starts here*/
+    #header{position: relative; z-index: 9999;}
+    #mobileMenu{display: block;}
+    .logo{width: 40%; margin: 0 0 0 5%;}
+    .login{width: 30%; margin: 10px 0 0 0;}
+    .login li{padding: 0 9%;}
+    .menu{width: 50%; background: #5dc7f8; border-radius: 6px; padding:6px; display: none; position: absolute; left: 2%; top: 38px; z-index: 999;}
+    .menu li{width: 100%;float: left; padding: 3px 0;}
+    .menu li a{color: #000;}
+    .menu li a:hover, .menu li.active a{color: #fff;}
+    .banner1 .wrapper{padding-bottom: 10px;}
+    .bannerTextBox{padding-bottom: 11px; margin-top: 30px;}
+    .bannerTextBox div.banner-title{font-size: 19px; line-height: 21px;}
+    .bannerTextBox div.banner-subtitle{font-size: 17px; line-height: 20px;}  
+    .bannerTextBox .signup-link-btn{font-size: 16px;line-height: 33px; height: 33px; width: 75%;margin: 10px 0 0 0;}
+    .bannerTextBox .signup-link-btn{ display: inline-block;}
+    .bannerTextBox div.middle-line-btns .signup-link-btn img{ width:85%;}
+    .bannerTextBox div.middle-line-btns #videoLink img{ width:20%; }
+    .bannerTextBox div.middle-line-btns #videoLink{ margin-top: 10%;font-size: 120%;}
+    .bannerTextBox #videoLink{ display: inline-block;}
+    .bannerTextBox .video{width: 75%; margin: 10px 0 0 0;}
+    .app{right: 22%; bottom: 18%}
+    #threeIcon ul li span{font-size: 20px;line-height: 22px;}
+    #threeIcon ul li small{font-size: 10px;line-height: 12px;}
+    .containerInner header span{font-size: 15px;line-height: 18px; padding: 0;}
+    .row .image{width: 100%; text-align: center;}
+    .row .image img{float: none;}
+    .row .contentText{width: 100%;float: left;}
+    .list li{width: 100%; margin: 0; min-height: 1px; padding-bottom: 5px;}
+    .tweetSlide figure{width: 12%;}
+    .tweetSlide .tweet{padding: 0;}
+    .tweetSlide .tweet p{font-size: 12px;}
+    .tweetSlide .tweet p small{font-size: 10px;}
+    .text{width: 73%; padding-left: 5%;}
+    .footeLogoSec,.box{width: 48%; margin: 5px 1%;}
+    /*Business page starts here*/
+    .signUp{width: 40%;}
+    .signUp p{font-size: 14px;line-height: 18px;}
+    .signUp .btn{font-size: 17px;line-height: 40px; margin-bottom: 0; width: 70%;height: 40px;}
+    .busiBanner .wrapper{padding-bottom: 25px;}
+    .aboutText{padding: 10px 2.8%;}
+    .aboutText p{font-size: 16px;line-height: 21px;}
+    .usePushlocal h1{font-size: 23px; line-height: 30px;}
+    .containerInner.product{padding-top: 30px;}
+    .product .row{margin-top: 20px;}
+    .product .row.first{margin-top: 30px;}
+    .product .row .image{position: static; text-align: center;}
+    .product .row .image img{float: none !important;}
+    .product .row .contentText{width: 100%;}
+    .product .row .contentText span{font-size: 17px; padding-bottom: 10px; font-weight: 700;}
+    .product .row .contentText p{font-weight: 600; font-size: 14px;}
+    .packageWrap{margin-top: 20px;}
+    .caseStudy{padding-top: 15px; padding-bottom: 40px;}
+    .caseStudy h3{font-size: 25px;line-height: 25px; padding-bottom: 10px;}
+    .doubleDave figure{width: 50%; margin: 10px 25% 0;}
+    .doubleDave figure img{position: static;}
+    .doubleDaveText{width: 100%; padding: 10px 0;}
+    .caseStudy strong{font-size: 20px;line-height: 25px;}
+    .priceBlock h3{font-size: 30px;line-height: 40px;}
+    .package{width: 80%; margin: 10px 10% 0;}
+    .btnBlock ul{width: 50%; margin: 0 25%;}
+    .btnBlock ul li a {min-height: 40px;}
+    /*App page starts here*/
+    .handPhone{margin-top: 22px;}
+    .appBannerText{margin: 25px 5% 0 0;width: 52%;}
+    .appBannerText h5{font-size: 19px;line-height: 19px;}
+    .appBannerText p{font-size: 15px;line-height: 15px;}
+    .appBannerText .appLink{margin-top: 17px;}
+    .testimonialBox p{font-size: 17px;line-height: 17px;}
+    .testimonialBox p small{font-size: 17px;line-height: 17px;}
+    .arrow1,.arrow2,.arrow3,.arrow4{display: none;}
+    .phone{display: none;}
+    .appInfo{width: 100%; margin: 0 0 10px;}
+    .appInfo li strong{font-size: 15px; font-weight: 400;}
+    .appInfo li.feed strong{margin-left: 0; width: 100%;}
+    .appInfo li{text-align: left; width: 46%;padding: 0 2%;}
+    .appInfo li figure{text-align: center;}
+    .appInfo.rightList{width: 100%; margin: 0;}
+    .signUpFree{padding: 0px 0 10px;}
+    .signUpFree span{font-size: 25px; padding-top: 10px;}
+    .signUpFree .btn{width: 40%; height: 40px; margin: 10px 30% 0; font-size: 18px; line-height: 40px; background-size: 100% 100%;}
+    .download{min-height: 355px;}
+    .download .title{font-size: 40px;line-height: 40px;padding: 10px 0;}
+    .appBtnBox a{width: 45%; display: inline-block;}
+    .appBox strong{font-size: 35px; padding-top: 0;}
+    /*Community page starts here*/
+    .community #banner ul li .wrapper{min-height: 142px;}
+    .communityBannerText{margin-top: 15px;}
+    .communityBannerText p{font-size: 14px; padding: 0;} 
+    .communityBannerText .btn{font-size: 18px; width: 55%; height: 40px;line-height: 40px; background-size: 100% 100%;}
+    .darkGrayRow{min-height: 86px;}
+    .pointer{min-height: 70px; padding-top: 20px;}
+    .aboutText{min-height: 70px;}
+    .community .usepushList li{min-height: 105px;}
+    .community .containerInner{padding-top: 25px;}
+    .community .row.head .pageTitle{font-size: 35px;}
+    .community .row .image{position: static;}
+    .community .row .image{width: 100%;float: left;}
+    .community .row .image{width: 100%;}
+    .community .row.swapContent .contentText,.community .row .contentText{width: 100%;}
+    .community .row .contentText span{font-size: 17px;line-height: 20px;font-weight: 700;}
+    .freePic{width: 100%; margin: 0;}
+    .freeLeftBox{width: 100%; margin: 75px 0 10px; text-align: center;}
+    .freeLeftBox .btn{width: 50%; margin: 15px 25%;}
+    /*pricing page starts here*/
+    .packageWrapTwo{margin-top: 0;}
+    .priceBlockTwo h3{margin: 20px 0; font-size: 40px; line-height: 40px;}
+    .priceBlockTwo h6{font-size: 17px;line-height: 20px;}
+    .packageBox{width: 98%; margin: 10px 1% !important;}
+    /*privacy page starts here*/
+    .shareTopBox p{font-size: 22px;line-height: 22px;}
+    .time span{font-size: 20px; line-height: 30px;}
+    .pushLocalText h5{font-size: 25px;line-height: 30px;}
+    .pushLocalText p{font-size: 16px;line-height: 18px;}
+    /*testimonial page starts here*/
+    .testiBanner h1{font-size: 40px;line-height: 40px; margin-top: 90px;}
+    .testiBanner p{font-size: 16px;line-height: 18px;padding: 9px 9%;}
+    .userImg,.qouteRow.swap .userImg{position: static; float: none; margin: 43px auto;}
+    .qouteRow .toolTip{width: 96%; margin: 0; padding: 10px 2%;}
+    .qouteRow .toolTip em{left: 50%; top: -33px; margin-left: -27px;-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-o-transform: rotate(90deg);-ms-transform: rotate(90deg); transform: rotate(90deg);}
+    .qouteRow.swap .toolTip{width: 96%; margin: 0; padding: 10px 2%;}
+    .qouteRow.swap .toolTip em{left: 50%; top: -47px; margin-left: -27px;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);-o-transform: rotate(180deg);-ms-transform: rotate(180deg); transform: rotate(180deg);}
+    .qouteRow:last-child{margin-bottom: 20px;}
+    /*our story page starts here*/
+    .storyBannerTitle{font-size: 25px;}
+    .commentBox{width: 100%;}
+    .commentText{width: 74%; padding-bottom: 7px;}
+    .commentText p{font-size: 12px;line-height: 15px;}
+    .leftAlign{width: 100%; margin-top: 50px;}
+    .leftAlign .commentText{padding-bottom: 7px;}
+    .aboutTextWrap{background: #243347;}
+    .threeCols article{width: 97%; padding-bottom: 15px;}
+    .appPic{width: 100%; text-align: center; margin: 10px 0;}
+    .appText{width: 100%;float: left; margin: 0 0 10px;}
+    .aboutText2 p{font-size: 15px; padding-top: 6px;}
+    .appText h6{font-size: 17px; line-height: 20px; padding-bottom: 15px;}
+    .appText p{font-size: 14px;line-height: 18px;}
+    .aboutText2 p small{padding-top: 13px;}
+    .aboutTextWrap.red .aboutText2 p{line-height: 18px;}
+    .succeedContent{width: 100%; float: left; margin: 10px 0;}
+    .succeedContent h2{font-size: 25px; padding-bottom: 5px;}
+    .succeedContent h4{font-size: 18px; line-height: 20px; padding-bottom: 5px;}
+    .succeedContent p{font-size: 14px;line-height: 16px;}
+    .listTwo li strong{font-size: 16px;line-height: 22px; padding-bottom: 5px;}
+    .listTwo li p{font-size: 15px;line-height: 18px;}
+    .mobilePic{width: 100%;float: left; text-align: center; margin: 10px 0;}
+    .mobilePic img{float: none;}
+    /*share page starts here*/
+    #headerTwo{margin-top: 10px;}
+    #headerTwo .logo {margin: 10px 0; width: 40%;}
+    .shareTopBox{margin: 10px 0 0 0; padding: 10px 0;}
+    .shareTopBox p{font-size: 16px;line-height: 18px;}
+    .shareMiddleBox{margin: 10px 0 0 0; width: 96%; padding: 10px 2%;}
+    .time span{font-size: 12px;line-height: 15px;}
+    .pushLocalBox .imageBox{margin-top: 0; width: 15%;}
+    .pushLocalText h5{font-size: 18px;line-height: 20px;}
+    .pushLocalText p{font-size: 12px;line-height: 14px;}
+    .followers, .oxford{font-size: 18px;line-height: 30px;}
+    .btnGroup{margin: 10px 0 0;}
+    #shareFooter{margin: 10px 0 0 0; padding: 10px 0;}
+    #shareFooter p{font-size: 11px;line-height: 12px;}
+    /*Log in page starts here*/
+    .footerNav li{padding: 0 17px 0 21px;}
+    .footerNav li a{font-size: 12px;}
+    /*Email confirm page starts here*/
+    .emailConfirmed h2{font-size: 35px;}
+    .emailConfirmed h5{font-size: 16px;}
+    /*step1 page starts here*/
+    .steps li.first{width: 25%; margin-right: 12.5%;}
+    .steps li.secound{width: 25%; margin-right: 12.5%;}
+    .steps li.third{width: 25%;}
+    .signUpFreeBox{margin: 10px 0 0; border-top: 1px solid #ccc; padding: 0; padding-top: 20px;}
+    .signUpFreeBox h2{font-size: 25px;}
+    .signUpFreeBox h4{font-size: 20px; line-height: 20px; padding-bottom: 10px;}
+    .signUpFreeBox p{font-size: 14px; line-height: 18px;}
+    /*step2 page starts here*/
+    .signUpPage #signUpHeader{margin-top: 25px;}
+    .signUpPage #signUpHeader a{width: 50%; margin: 0 25%; display: block; clear: both;}
+    .form h1{font-size: 25px;line-height: 30px; padding-top: 20px;}
+    .formWrap{margin-top: 20px;}
+    .formBox{width: 90%; margin: 0 5%;}
+    .formBox ul li input[type="text"], .formBox ul li input[type="password"], .formBox ul li textarea{width: 53%;}
+    #businessForm .formWrap .select2-container{width: 58%;}
+    .redBtn{width: 73%;}
+    /*step3 page starts here*/
+    .form .packageBox{width: 90% !important; margin: 10px 5% !important;}
+    /*select page starts here*/
+    .selectedPlan{width: 60%; margin: 0 20%;}
+    .selectedPlan .packageBox {width: 100% !important; margin: 0 !important;}
+    /*thank page starts here*/
+    .thanks h2{padding: 44px 20px 24px;}
+    .thanks p{padding: 0 20px;}
+}
+
+/*============================= 
+! Layout for mobile landscape  
+============================= */
+@media only screen and (max-width: 479px) {
+    .bannerTextBox{margin-top: 5px; padding-bottom: 0;}
+    .bannerTextBox span.banner-title{font-size: 16px; line-height: 18px;}
+    .bannerTextBox span.banner-subtitle{font-size: 15px; line-height: 17px;}
+    .bannerTextBox .signup-link-btn{width: 82%; height: 30px;font-size: 14px;line-height: 30px;}
+    .bannerTextBox .video{width: 82%;}
+    .app {width: 100%;}
+    .app img{max-width: 70%;}
+    .app a{width: 80%; margin: 5px 15%;display: inline-block;}
+    .bannerTextBox div.middle-line-btns .signup-link-btn img {width: 100%;}
+    .login{width: 40%; margin: 0;}
+    .login li a{font-size: 11px;}
+    #threeIcon ul li{width: 97% !important; border: 0; border-bottom: 2px solid #ccc;}
+    #threeIcon ul li:last-child{border: 0 none;}
+    #threeIcon ul li em{display: none;}
+    .containerInner{padding-top: 20px;}
+    .containerInner header figure{width: 100%; margin-bottom: 10px;text-align: center;}
+    .row .contentText span{font-size: 20px;line-height: 22px; padding-bottom: 10px;}
+    .tweetSlide figure{width: 20%; margin-top: 0px;}
+    .tweetSlide .tweet p{font-size: 10px; line-height: 12px;}
+    #footerMiddle{padding-top: 20px;}
+    .box h6{padding-bottom: 10px;}
+    .box p, .newsletter p{line-height: 15px;}
+    .contact li{padding-bottom: 5px;}
+    .contact li figure{margin-bottom: 0;}
+    .text .grayBtn{width: 40%;}
+    .footeLogoSec{text-align: center;}
+    .social{margin: 20px 0;}
+    .footeLogoSec,.box{width: 100%; margin: 5px 0; border-bottom: 1px solid #595C5E;}
+    /*Business page starts here*/
+    .busiBanner .wrapper{padding-bottom: 20px;}
+    .signUp{padding: 10px 8px;}
+    .signUp p{font-size: 11px;line-height: 15px;}
+    .signUp .btn{ margin: 5px 5% 0; width: 90%; font-size: 13px;line-height: 30px; height: 30px;}
+    .aboutTextBox{width: 100%;float: left;}
+    .pointer{width: 100%; min-height: 1px; float: left; text-align: center; padding: 9px 0 4px; border: 0 none; border-bottom: 1px solid #1F1E1E;}
+    .pointer em{display: none;}
+    .pointer img{float: none;}
+    .aboutText{width: 100%;text-align: center; float: left; padding: 10px 0;border: 0 none; border-top: 1px solid #716F6F;}
+    .aboutText p{font-size: 15px;line-height: 16px;}
+    .containerInner.product{padding-top: 15px;}
+    .product .row.first{margin-top: 15px;}
+    .pageTitle{font-size: 28px; line-height: 28px;}
+    .usePushlocal h1{font-size: 15px;line-height: 18px; padding: 10px 0;}
+    .usepushList li{padding-bottom: 10px; width: 45% !important;}
+    .product .row .contentText span{font-size: 17px; padding-bottom: 10px; font-weight: 700;}
+    .product .row .contentText p{font-size: 13px;line-height: 18px; padding-bottom: 10px;}
+    .contentText ul li{font-size: 13px; line-height: 17px; padding-bottom: 5px;}
+    .usepushList li span{font-size: 13px; line-height: 16px;}
+    .caseStudy span{font-size: 15px;line-height: 20px;}
+    .caseStudy p{font-size: 12px;line-height: 16px;}
+    .caseStudy strong{font-size: 14px;line-height: 20px;}
+    .priceBlock h3{font-size: 22px;line-height: 22px;}
+    .priceBlock{padding-top: 10px;}
+    .packageWrap{margin-top: 10px;}
+    .package{width: 100%; margin: 10px 0 0 0;}
+    .packageList li{padding: 10px 0;}
+    .packageList li span{font-size: 12px;line-height: 18px;}
+    .packageList li small{padding: 0 9%;}
+    .btnBlock ul{width: 80%; margin: 0 10%;}
+    /*App page starts here*/
+    .appBannerText{width: 57%;margin: 22px 1% 0 0;}
+    .appBannerText h5{font-size: 14px;line-height: 14px; padding-bottom: 5px;}
+    .appBannerText p{font-size: 11px;line-height: 11px;}
+    .appBannerText .appLink{margin-top: 5px;}
+    .appInfo li{width: 100%; padding: 5px 0 10px; text-align: center;}
+    .appInfo li strong{font-size: 18px; line-height: 22px;}
+    .appInfo.rightList li{text-align: center;}
+    .appInfo li p{font-size: 13px;}
+    .signUpFree span{font-size: 17px; line-height: 20px;}
+    .signUpFree .btn{font-size: 16px;}
+    .appBox p{font-size: 17px;}
+    .appBox span{font-size: 30px;line-height: 30px;}
+    /*Community page starts here*/
+    .community #banner ul li .wrapper{min-height: 1px;}
+    .communityBannerText{margin: 15px 2% 0 0;width: 65%; padding-bottom: 25px;}
+    .communityBannerText p{font-size: 12px;}
+    .communityBannerText .btn{font-size: 13px; width: 70%; margin: 5px 0 0; height: 30px;line-height: 30px;}
+    .community .usepushList li span{font-size: 12px; line-height: 14px;}
+    .community .row.head .pageTitle{font-size: 25px;}
+    .subTitle{font-size: 15px;line-height: 15px;}
+    .freeLeftBox{margin-top: 15px;}
+    .freeLeftBox span{font-size: 30px;line-height: 30px;}
+    .freeLeftBox p{font-size: 20px; line-height: 25px;}
+    .freeLeftBox .btn{margin: 5px 25%; font-size: 14px; line-height: 32px;height: 32px;}
+    /*pricing page starts here*/
+    .priceBlockTwo h6{font-size: 20px;}
+    .joinUs h3{font-size: 18px;line-height: 20px;}
+    .download p.paddOne{padding: 0; font-size: 16px;line-height: 20px; text-align: justify;}
+    .joinUs .title{margin: 0;}
+    /*privacy page starts here*/
+    #headerTwo .logo{width: 50%; margin: 0 25%;}
+    .shareTopBox p{padding: 0; font-size: 16px;line-height: 20px;}
+    .pushLocalBox .imageBox{width: 100%; float: left; text-align: center;}
+    .btnGroup a{width: 70%; margin-bottom: 10px;}
+    .btnGroup a.middle{margin-bottom: 10px;}
+    #shareFooter p{font-size: 11px;}
+    /*testimonial page starts here*/
+    .testiBanner p{padding: 10px 0;}
+    /*our story page starts here*/
+    .storyBannerTitle{font-size: 17px;}
+    .commentText .circleShadow{display: none;}
+    .commentText{width: 96%; padding: 10px 2%;}
+    .commentBox figure{margin: 8px auto; float: none;}
+    .commentText{margin: 15px 0;}
+    .commentText .arrow{ top: -23px; left: 50%; bottom: auto;-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-o-transform: rotate(90deg);-ms-transform: rotate(90deg); transform: rotate(90deg);}
+    .leftAlign .commentText .arrow{ top: auto; bottom: -23px;left: 50%; -webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);-ms-transform: rotate(0deg); transform: rotate(0deg);}
+    .leftAlign .commentText{width: 96%; padding: 10px 2%; margin: 0 0 15px;}
+    .aboutText2 p{font-size: 14px; line-height: 17px;}
+    .aboutText2 p small{font-size: 10px; line-height: 14px; padding-top: 8px;}
+    .aboutTextWrap.red .aboutText2 p .more{font-size: 15px;line-height: 20px; background-position: right 7px;}
+    /*share page starts here*/
+    #headerTwo{margin-top: 10px;}
+    .shareTopBox{margin: 10px 0; padding: 10px 0;}
+    .shareTopBox p{font-size: 12px;line-height: 18px;}
+    .shareMiddleBox{margin:0;padding: 10px 2% 0;}
+    .pushLocalBox .imageBox{width: 20%;margin-top: 10px;}
+    .pushLocalText h5{font-size: 15px;line-height: 18px;padding: 10px 0;}
+    .pushLocalText p{line-height: 18px;}
+    .followers, .oxford{font-size: 13px;line-height: 20px;  text-align: center;}
+    .followers span{padding: 0 5px;}
+    .btnGroup a{width: 27%; margin-bottom: 0;}
+    .btnGroup a.middle{margin-bottom: 0;}
+    .btnGroup,#shareFooter{margin-top: 10px;}
+    .btnGroup{margin-top: 15px;}
+    .shareMiddleBox footer{padding: 10px 0;}
+
+
+    /*Log in page starts here*/
+    .loginWrap{margin: 0 10px;}
+    .footerNav li{padding: 0 7px 0 10px;}
+    .footerNav li a{font-size: 9px;}
+    .footerNav li:first-child{padding-left: 0;}
+    .footerNav li:last-child{padding-right: 0;}
+    /*Email confirm page starts here*/
+    .emailConfirmed h3{font-size: 16px;}
+    .emailConfirmed h2{font-size: 25px;}
+    /*step2 page starts here*/
+    .form h1{font-size: 17px;line-height: 20px;}
+    .formBox ul li label{text-align: center; width: 100%;float: left;font-size: 15px; padding: 0;font-weight: 700;}
+    .stylish-select .leftBox .newListSelected{width: 99.8%;}
+    .formBox ul li input[type="text"], .formBox ul li input[type="password"], .formBox ul li textarea{width: 89%;}
+    #businessForm .formWrap .select2-container{width: 100%;}
+    #businessForm .formWrap .select2-container .select2-choice .select2-arrow b {
+        background: url(../../images/FrontPages/select-arrow.png) no-repeat -11px;
+        background-image: url(../../images/FrontPages/select-arrow.png) !important;
+    }
+    .stylish-select .leftBox .selectedTxt{width: 81%; padding-right: 13.5%;}
+    .grayBtnTwo{padding: 0 8px; margin-right: 5px;}
+    .redBtn{width: 77%;}
+    .redBtn, .grayBtnTwo{font-size: 13px;}
+	.stepOne .redBtn.nextStepBtn {
+	  width: 100% !important;
+	}
+    /*select page starts here*/
+    .selectedPlan{width: 90%; margin: 0 5%;}
+    .selectedPlan .packageBox {width: 100% !important;}
+    /*step4 page starts here*/
+    .stylish-select .rightBox .newListSelected{width: 47%;}
+    .formBox ul li input.half[type="text"]{width: 36%;}
+    /*thank page starts here*/
+    .thanks h2{padding: 20px 10px; font-size: 11px;line-height: 15px;}
+    .thanks p{font-size: 12px; line-height: 12px;}
+}
